@@ -1,5 +1,5 @@
 tensorflow
-kagglehub
+kaggle
 scikit-learn
 pandas
 numpy
