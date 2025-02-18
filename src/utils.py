@@ -26,7 +26,7 @@ def save_model(file_path, obj):
     try:
         if os.path.exists(file_path):
             logging.info(f"Model directory '{file_path}' already exists. Removing it to allow overwriting.")
-            shutil.rmtree(file_path)  # Remove the existing directory
+            shutil.rmtree(file_path)  
         
         # Ensure the parent directory exists
         parent_dir = os.path.dirname(file_path)

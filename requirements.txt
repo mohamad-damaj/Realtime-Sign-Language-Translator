@@ -3,4 +3,6 @@ kaggle
 scikit-learn
 pandas
 numpy
+torch
+torchvision
 -e .
